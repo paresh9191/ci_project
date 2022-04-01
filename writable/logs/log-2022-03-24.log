@@ -1,0 +1,189 @@
+CRITICAL - 2022-03-24 05:56:11 --> syntax error, unexpected variable "$save"
+#0 C:\xampp\htdocs\ci_project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci_project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Demo...')
+#2 C:\xampp\htdocs\ci_project\app\Controllers\Register.php(35): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Demo...')
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\Register->registerInsert()
+#4 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-24 06:00:17 --> syntax error, unexpected variable "$save"
+#0 C:\xampp\htdocs\ci_project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci_project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Demo...')
+#2 C:\xampp\htdocs\ci_project\app\Controllers\Register.php(35): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Demo...')
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\Register->registerInsert()
+#4 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-24 06:03:18 --> syntax error, unexpected variable "$save"
+#0 C:\xampp\htdocs\ci_project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci_project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Demo...')
+#2 C:\xampp\htdocs\ci_project\app\Controllers\Register.php(35): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Demo...')
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\Register->registerInsert()
+#4 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-24 06:03:24 --> syntax error, unexpected variable "$save"
+#0 C:\xampp\htdocs\ci_project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci_project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Demo...')
+#2 C:\xampp\htdocs\ci_project\app\Controllers\Register.php(35): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Demo...')
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\Register->registerInsert()
+#4 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-24 06:03:25 --> syntax error, unexpected variable "$save"
+#0 C:\xampp\htdocs\ci_project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci_project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Demo...')
+#2 C:\xampp\htdocs\ci_project\app\Controllers\Register.php(35): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Demo...')
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\Register->registerInsert()
+#4 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-24 06:07:05 --> syntax error, unexpected variable "$save"
+#0 C:\xampp\htdocs\ci_project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci_project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Demo...')
+#2 C:\xampp\htdocs\ci_project\app\Controllers\Register.php(35): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Demo...')
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\Register->registerInsert()
+#4 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-24 06:07:07 --> syntax error, unexpected variable "$save"
+#0 C:\xampp\htdocs\ci_project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci_project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Demo...')
+#2 C:\xampp\htdocs\ci_project\app\Controllers\Register.php(35): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Demo...')
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\Register->registerInsert()
+#4 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-24 06:07:08 --> syntax error, unexpected variable "$save"
+#0 C:\xampp\htdocs\ci_project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci_project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Demo...')
+#2 C:\xampp\htdocs\ci_project\app\Controllers\Register.php(35): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Demo...')
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\Register->registerInsert()
+#4 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-24 06:07:10 --> syntax error, unexpected variable "$save"
+#0 C:\xampp\htdocs\ci_project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci_project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Demo...')
+#2 C:\xampp\htdocs\ci_project\app\Controllers\Register.php(35): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Demo...')
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\Register->registerInsert()
+#4 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-24 06:08:43 --> syntax error, unexpected variable "$save"
+#0 C:\xampp\htdocs\ci_project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci_project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Demo...')
+#2 C:\xampp\htdocs\ci_project\app\Controllers\Register.php(35): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Demo...')
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\Register->registerInsert()
+#4 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-24 06:09:45 --> syntax error, unexpected variable "$save"
+#0 C:\xampp\htdocs\ci_project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci_project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Demo...')
+#2 C:\xampp\htdocs\ci_project\app\Controllers\Register.php(35): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Demo...')
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\Register->registerInsert()
+#4 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-24 06:09:51 --> syntax error, unexpected variable "$save"
+#0 C:\xampp\htdocs\ci_project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci_project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Demo...')
+#2 C:\xampp\htdocs\ci_project\app\Controllers\Register.php(35): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Demo...')
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\Register->registerInsert()
+#4 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-24 06:09:57 --> syntax error, unexpected variable "$save"
+#0 C:\xampp\htdocs\ci_project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci_project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Demo...')
+#2 C:\xampp\htdocs\ci_project\app\Controllers\Register.php(35): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Demo...')
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\Register->registerInsert()
+#4 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-24 06:10:04 --> syntax error, unexpected variable "$save"
+#0 C:\xampp\htdocs\ci_project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci_project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Demo...')
+#2 C:\xampp\htdocs\ci_project\app\Controllers\Register.php(35): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Demo...')
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\Register->registerInsert()
+#4 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-24 06:10:08 --> syntax error, unexpected variable "$save"
+#0 C:\xampp\htdocs\ci_project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci_project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Demo...')
+#2 C:\xampp\htdocs\ci_project\app\Controllers\Register.php(35): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Demo...')
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\Register->registerInsert()
+#4 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-24 06:10:14 --> syntax error, unexpected variable "$save"
+#0 C:\xampp\htdocs\ci_project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci_project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Demo...')
+#2 C:\xampp\htdocs\ci_project\app\Controllers\Register.php(35): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Demo...')
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\Register->registerInsert()
+#4 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-24 06:10:22 --> syntax error, unexpected variable "$save"
+#0 C:\xampp\htdocs\ci_project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci_project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Demo...')
+#2 C:\xampp\htdocs\ci_project\app\Controllers\Register.php(35): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Demo...')
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\Register->registerInsert()
+#4 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-24 06:21:01 --> syntax error, unexpected variable "$save"
+#0 C:\xampp\htdocs\ci_project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci_project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Demo...')
+#2 C:\xampp\htdocs\ci_project\app\Controllers\Register.php(36): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Demo...')
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\Register->registerInsert()
+#4 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-24 06:21:17 --> syntax error, unexpected variable "$save"
+#0 C:\xampp\htdocs\ci_project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci_project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Demo...')
+#2 C:\xampp\htdocs\ci_project\app\Controllers\Register.php(36): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Demo...')
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\Register->registerInsert()
+#4 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-24 06:36:58 --> syntax error, unexpected single-quoted string "DOB", expecting "]"
+#0 C:\xampp\htdocs\ci_project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci_project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-24 06:52:07 --> syntax error, unexpected single-quoted string "DOB", expecting "]"
+#0 C:\xampp\htdocs\ci_project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci_project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

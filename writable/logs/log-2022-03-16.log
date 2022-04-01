@@ -1,0 +1,635 @@
+CRITICAL - 2022-03-16 01:50:51 --> syntax error, unexpected token "}", expecting ";"
+#0 C:\xampp\htdocs\ci_project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci_project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-16 01:50:52 --> syntax error, unexpected token "}", expecting ";"
+#0 C:\xampp\htdocs\ci_project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci_project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-16 01:50:52 --> syntax error, unexpected token "}", expecting ";"
+#0 C:\xampp\htdocs\ci_project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci_project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-03-16 05:04:26 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-03-16 05:04:26 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ci_project\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ci_project\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\ci_project\app\Controllers\usercrud.php(10): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud->index()
+#6 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#7 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-16 05:05:42 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-03-16 05:05:42 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ci_project\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ci_project\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\ci_project\app\Controllers\usercrud.php(10): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud->index()
+#6 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#7 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-16 05:07:05 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-03-16 05:07:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ci_project\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ci_project\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\ci_project\app\Controllers\UserCrud.php(10): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud->index()
+#6 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#7 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-16 05:07:07 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-03-16 05:07:07 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ci_project\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ci_project\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\ci_project\app\Controllers\UserCrud.php(10): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud->index()
+#6 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#7 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-16 05:14:04 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-03-16 05:14:04 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ci_project\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ci_project\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\ci_project\app\Controllers\UserCrud.php(10): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud->index()
+#6 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#7 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-16 05:17:10 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-03-16 05:17:10 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ci_project\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ci_project\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\ci_project\app\Controllers\UserCrud.php(10): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud->index()
+#6 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#7 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-16 05:18:35 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-03-16 05:18:35 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ci_project\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ci_project\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\ci_project\app\Controllers\UserCrud.php(10): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud->index()
+#6 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#7 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-16 05:22:55 --> Undefined variable $data
+#0 C:\xampp\htdocs\ci_project\app\Controllers\UserCrud.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud->index()
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-16 05:22:57 --> Undefined variable $data
+#0 C:\xampp\htdocs\ci_project\app\Controllers\UserCrud.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud->index()
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-16 05:22:58 --> Undefined variable $data
+#0 C:\xampp\htdocs\ci_project\app\Controllers\UserCrud.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud->index()
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-16 05:23:58 --> Undefined variable $data
+#0 C:\xampp\htdocs\ci_project\app\Controllers\UserCrud.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud->index()
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-16 05:24:04 --> Undefined variable $data
+#0 C:\xampp\htdocs\ci_project\app\Controllers\UserCrud.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud->index()
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-16 05:24:55 --> Undefined variable $data
+#0 C:\xampp\htdocs\ci_project\app\Controllers\UserCrud.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud->index()
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-16 05:26:17 --> Undefined variable $data
+#0 C:\xampp\htdocs\ci_project\app\Controllers\UserCrud.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud->index()
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-16 05:26:18 --> Undefined variable $data
+#0 C:\xampp\htdocs\ci_project\app\Controllers\UserCrud.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud->index()
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-16 05:26:18 --> Undefined variable $data
+#0 C:\xampp\htdocs\ci_project\app\Controllers\UserCrud.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud->index()
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-16 05:26:18 --> Undefined variable $data
+#0 C:\xampp\htdocs\ci_project\app\Controllers\UserCrud.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud->index()
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-16 05:26:24 --> Undefined variable $data
+#0 C:\xampp\htdocs\ci_project\app\Controllers\UserCrud.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud->index()
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-16 05:26:24 --> Undefined variable $data
+#0 C:\xampp\htdocs\ci_project\app\Controllers\UserCrud.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud->index()
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-16 05:26:24 --> Undefined variable $data
+#0 C:\xampp\htdocs\ci_project\app\Controllers\UserCrud.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud->index()
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-16 05:26:24 --> Undefined variable $data
+#0 C:\xampp\htdocs\ci_project\app\Controllers\UserCrud.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud->index()
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-16 05:27:37 --> Undefined variable $data
+#0 C:\xampp\htdocs\ci_project\app\Controllers\UserCrud.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud->index()
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-16 05:27:38 --> Undefined variable $data
+#0 C:\xampp\htdocs\ci_project\app\Controllers\UserCrud.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud->index()
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-16 05:27:38 --> Undefined variable $data
+#0 C:\xampp\htdocs\ci_project\app\Controllers\UserCrud.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud->index()
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-16 05:29:12 --> Undefined variable $data
+#0 C:\xampp\htdocs\ci_project\app\Controllers\UserCrud.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud->index()
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-16 05:29:13 --> Undefined variable $data
+#0 C:\xampp\htdocs\ci_project\app\Controllers\UserCrud.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud->index()
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-16 05:29:13 --> Undefined variable $data
+#0 C:\xampp\htdocs\ci_project\app\Controllers\UserCrud.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud->index()
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-16 05:29:13 --> Undefined variable $data
+#0 C:\xampp\htdocs\ci_project\app\Controllers\UserCrud.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud->index()
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-16 05:29:14 --> Undefined variable $data
+#0 C:\xampp\htdocs\ci_project\app\Controllers\UserCrud.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud->index()
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-16 05:29:14 --> Undefined variable $data
+#0 C:\xampp\htdocs\ci_project\app\Controllers\UserCrud.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud->index()
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-16 05:29:14 --> Undefined variable $data
+#0 C:\xampp\htdocs\ci_project\app\Controllers\UserCrud.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud->index()
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-16 05:34:53 --> Undefined variable $data
+#0 C:\xampp\htdocs\ci_project\app\Controllers\UserCrud.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud->index()
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-16 05:34:53 --> Undefined variable $data
+#0 C:\xampp\htdocs\ci_project\app\Controllers\UserCrud.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud->index()
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-16 05:38:10 --> Undefined variable $userModel
+#0 C:\xampp\htdocs\ci_project\app\Controllers\UserCrud.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud->index()
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-16 05:38:22 --> Class "App\Controllers\UserModel" not found
+#0 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud->index()
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-03-16 05:38:41 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-03-16 05:38:41 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ci_project\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ci_project\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\ci_project\app\Controllers\UserCrud.php(10): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud->index()
+#6 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#7 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-16 05:39:47 --> Invalid file: edit_user.php
+#0 C:\xampp\htdocs\ci_project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_user.php')
+#1 C:\xampp\htdocs\ci_project\system\Common.php(1089): CodeIgniter\View\View->render('edit_user', Array, true)
+#2 C:\xampp\htdocs\ci_project\app\Controllers\UserCrud.php(32): view('edit_user', Array)
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud->singleUser('1')
+#4 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#5 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-16 05:42:55 --> Invalid file: edit_user.php
+#0 C:\xampp\htdocs\ci_project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_user.php')
+#1 C:\xampp\htdocs\ci_project\system\Common.php(1089): CodeIgniter\View\View->render('edit_user', Array, true)
+#2 C:\xampp\htdocs\ci_project\app\Controllers\UserCrud.php(32): view('edit_user', Array)
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud->singleUser('7')
+#4 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#5 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-16 05:47:06 --> Invalid file: edit_user.php
+#0 C:\xampp\htdocs\ci_project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_user.php')
+#1 C:\xampp\htdocs\ci_project\system\Common.php(1089): CodeIgniter\View\View->render('edit_user', Array, true)
+#2 C:\xampp\htdocs\ci_project\app\Controllers\UserCrud.php(32): view('edit_user', Array)
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud->singleUser('3')
+#4 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#5 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-16 05:47:46 --> Invalid file: edit_user.php
+#0 C:\xampp\htdocs\ci_project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_user.php')
+#1 C:\xampp\htdocs\ci_project\system\Common.php(1089): CodeIgniter\View\View->render('edit_user', Array, true)
+#2 C:\xampp\htdocs\ci_project\app\Controllers\UserCrud.php(32): view('edit_user', Array)
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud->singleUser('3')
+#4 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#5 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-16 05:50:23 --> Invalid file: edit_user.php
+#0 C:\xampp\htdocs\ci_project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_user.php')
+#1 C:\xampp\htdocs\ci_project\system\Common.php(1089): CodeIgniter\View\View->render('edit_user', Array, true)
+#2 C:\xampp\htdocs\ci_project\app\Controllers\UserCrud.php(32): view('edit_user', Array)
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud->singleUser('3')
+#4 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#5 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-16 05:50:23 --> Invalid file: edit_user.php
+#0 C:\xampp\htdocs\ci_project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_user.php')
+#1 C:\xampp\htdocs\ci_project\system\Common.php(1089): CodeIgniter\View\View->render('edit_user', Array, true)
+#2 C:\xampp\htdocs\ci_project\app\Controllers\UserCrud.php(32): view('edit_user', Array)
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud->singleUser('3')
+#4 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#5 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-16 05:50:24 --> Invalid file: edit_user.php
+#0 C:\xampp\htdocs\ci_project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_user.php')
+#1 C:\xampp\htdocs\ci_project\system\Common.php(1089): CodeIgniter\View\View->render('edit_user', Array, true)
+#2 C:\xampp\htdocs\ci_project\app\Controllers\UserCrud.php(32): view('edit_user', Array)
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud->singleUser('3')
+#4 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#5 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-16 05:50:39 --> Invalid file: edit_user.php
+#0 C:\xampp\htdocs\ci_project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_user.php')
+#1 C:\xampp\htdocs\ci_project\system\Common.php(1089): CodeIgniter\View\View->render('edit_user', Array, true)
+#2 C:\xampp\htdocs\ci_project\app\Controllers\UserCrud.php(32): view('edit_user', Array)
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud->singleUser('3')
+#4 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#5 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-16 05:51:07 --> Invalid file: edit_user.php
+#0 C:\xampp\htdocs\ci_project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_user.php')
+#1 C:\xampp\htdocs\ci_project\system\Common.php(1089): CodeIgniter\View\View->render('edit_user', Array, true)
+#2 C:\xampp\htdocs\ci_project\app\Controllers\UserCrud.php(32): view('edit_user', Array)
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud->singleUser('3')
+#4 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#5 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-16 05:51:08 --> Invalid file: edit_user.php
+#0 C:\xampp\htdocs\ci_project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_user.php')
+#1 C:\xampp\htdocs\ci_project\system\Common.php(1089): CodeIgniter\View\View->render('edit_user', Array, true)
+#2 C:\xampp\htdocs\ci_project\app\Controllers\UserCrud.php(32): view('edit_user', Array)
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud->singleUser('3')
+#4 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#5 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-16 05:51:08 --> Invalid file: edit_user.php
+#0 C:\xampp\htdocs\ci_project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_user.php')
+#1 C:\xampp\htdocs\ci_project\system\Common.php(1089): CodeIgniter\View\View->render('edit_user', Array, true)
+#2 C:\xampp\htdocs\ci_project\app\Controllers\UserCrud.php(32): view('edit_user', Array)
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud->singleUser('3')
+#4 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#5 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-16 05:51:08 --> Invalid file: edit_user.php
+#0 C:\xampp\htdocs\ci_project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_user.php')
+#1 C:\xampp\htdocs\ci_project\system\Common.php(1089): CodeIgniter\View\View->render('edit_user', Array, true)
+#2 C:\xampp\htdocs\ci_project\app\Controllers\UserCrud.php(32): view('edit_user', Array)
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud->singleUser('3')
+#4 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#5 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-16 05:52:55 --> Invalid file: edit_user.php
+#0 C:\xampp\htdocs\ci_project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_user.php')
+#1 C:\xampp\htdocs\ci_project\system\Common.php(1089): CodeIgniter\View\View->render('edit_user', Array, true)
+#2 C:\xampp\htdocs\ci_project\app\Controllers\UserCrud.php(32): view('edit_user', Array)
+#3 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud->singleUser('3')
+#4 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#5 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-16 08:46:43 --> Class "App\Models\UserMode2" not found
+#0 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud2->index()
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud2))
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-16 08:46:44 --> Class "App\Models\UserMode2" not found
+#0 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud2->index()
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud2))
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-16 08:49:17 --> Class "App\Models\UserMode2" not found
+#0 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud2->index()
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud2))
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-16 08:49:17 --> Class "App\Models\UserMode2" not found
+#0 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud2->index()
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud2))
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-16 08:49:18 --> Class "App\Models\UserMode2" not found
+#0 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud2->index()
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud2))
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-16 08:49:18 --> Class "App\Models\UserMode2" not found
+#0 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud2->index()
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud2))
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-16 08:49:18 --> Class "App\Models\UserMode2" not found
+#0 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud2->index()
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud2))
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-16 08:49:18 --> Class "App\Models\UserMode2" not found
+#0 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud2->index()
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud2))
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-16 08:49:18 --> Class "App\Models\UserMode2" not found
+#0 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud2->index()
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud2))
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-16 08:49:19 --> Class "App\Models\UserMode2" not found
+#0 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud2->index()
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud2))
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-16 08:49:19 --> Class "App\Models\UserMode2" not found
+#0 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud2->index()
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud2))
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-16 08:49:19 --> Class "App\Models\UserMode2" not found
+#0 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud2->index()
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud2))
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-16 08:50:42 --> Class "App\Models\UserMode2" not found
+#0 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud2->index()
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud2))
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-16 08:50:43 --> Class "App\Models\UserMode2" not found
+#0 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud2->index()
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud2))
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-16 08:50:43 --> Class "App\Models\UserMode2" not found
+#0 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud2->index()
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud2))
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-16 08:53:05 --> Class "App\Models\UserMode2" not found
+#0 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud2->index()
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud2))
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-16 08:53:06 --> Class "App\Models\UserMode2" not found
+#0 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud2->index()
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud2))
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-16 08:53:06 --> Class "App\Models\UserMode2" not found
+#0 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud2->index()
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud2))
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-16 08:53:06 --> Class "App\Models\UserMode2" not found
+#0 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud2->index()
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud2))
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-16 08:53:07 --> Class "App\Models\UserMode2" not found
+#0 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud2->index()
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud2))
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-16 08:53:07 --> Class "App\Models\UserMode2" not found
+#0 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud2->index()
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud2))
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-16 08:53:07 --> Class "App\Models\UserMode2" not found
+#0 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(832): App\Controllers\UserCrud2->index()
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud2))
+#2 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-16 09:12:41 --> syntax error, unexpected token "*", expecting end of file
+#0 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-03-16 09:12:45 --> syntax error, unexpected token "*", expecting end of file
+#0 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-03-16 09:12:47 --> syntax error, unexpected token "*", expecting end of file
+#0 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-03-16 09:12:50 --> syntax error, unexpected token "*", expecting end of file
+#0 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-03-16 09:13:09 --> syntax error, unexpected token "*", expecting end of file
+#0 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-03-16 09:13:16 --> syntax error, unexpected token "*", expecting end of file
+#0 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-03-16 09:14:46 --> syntax error, unexpected token "*", expecting end of file
+#0 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-03-16 09:14:47 --> syntax error, unexpected token "*", expecting end of file
+#0 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-03-16 09:14:47 --> syntax error, unexpected token "*", expecting end of file
+#0 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-03-16 09:14:48 --> syntax error, unexpected token "*", expecting end of file
+#0 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-03-16 09:14:48 --> syntax error, unexpected token "*", expecting end of file
+#0 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-03-16 09:14:51 --> syntax error, unexpected token "*", expecting end of file
+#0 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\ci_project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ci_project\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
